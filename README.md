@@ -5,6 +5,7 @@ This application is intended to provide approachable, automated integration test
 ## Scope
 
 These are the "must-have" features:
+ - [ ] GitHub Actions for automated PR and release verification.
  - [ ] Lua engine setup and sandboxing.
  - [ ] CLI interface for executing test scripts.
  - [ ] Base Assertions (`assertTrue`, `assertEqual`, etc.).

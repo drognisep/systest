@@ -13,9 +13,6 @@ func assertEqual(l *lua.LState) int {
 		return 0
 	}
 	switch first.Type() {
-	case lua.LTChannel:
-		errors.LError(l, "cannot compare channels for equality")
-		return 0
 	case lua.LTNil:
 		return 0
 	case lua.LTString:
